@@ -14,7 +14,7 @@ config();
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-    origin: [process.send.FRONTEND_URL],
+    // origin: [process.send.FRONTEND_URL],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }))
